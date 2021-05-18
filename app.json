@@ -1,14 +1,14 @@
 {
-  "name": "pmChatBot",
-  "description": "Livegram clone",
+  "name": "BotSange",
+  "description": "Sange",
   "keywords": [
     "telegram",
     "bot",
     "php"
   ],
   "website": "https://quiec.tech/",
-  "repository": "https://github.com/quiec/pmChatBot",
-  "logo": "https://www.pngmart.com/files/11/Chat-Logo-PNG-Image.png",
+  "repository": "https://github.com/Madixz/Cs",
+  "logo": "https://telegra.ph/file/5e1d677f0ebb0ffdc3663.jpg",
   "env": {
     "BOT_TOKEN": {
       "description": "Bot token",
@@ -21,7 +21,7 @@
     },
     "ADMIN_ID": {
       "description": "admin id",
-      "value": "452321614",
+      "value": "1621842568",
       "required": false
     }
   },
