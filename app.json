@@ -1,33 +1,30 @@
-{
-  "name": "BotSange",
-  "description": "Sange",
-  "keywords": [
-    "telegram",
-    "bot",
-    "php"
-  ],
-  "website": "https://quiec.tech/",
-  "repository": "https://github.com/Madixz/Cs",
-  "logo": "https://telegra.ph/file/5e1d677f0ebb0ffdc3663.jpg",
+"name": "Bot",
+  "description": "Nothing",
   "env": {
-    "BOT_TOKEN": {
-      "description": "Bot token",
+    "API_ID": {
+      "description": "Get this value from my.telegram.org.",
       "required": true
     },
-    "DB_TUR": {
-      "description": "db or json",
-      "value": "db",
-      "required": false
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true
     },
-    "ADMIN_ID": {
-      "description": "admin id",
-      "value": "1621842568",
-      "required": false
+    "TOKEN": {
+      "description": "",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "",
+      "value": true
+    },
+    "CHAT_ID": {
+      "description": "",
+      "value": true
     }
   },
-  "addons": [
+  "buildpacks": [
     {
-      "plan": "heroku-postgresql"
+      "url": "heroku/python"
     }
-  ]
+   ]
 }
