@@ -1,6 +1,19 @@
-"name": "Bot",
-  "description": "Nothing",
+{
+  "name": "pmChatBot",
+  "description": "Livegram clone",
+  "keywords": [
+    "telegram",
+    "bot",
+    "php"
+  ],
+  "website": "https://quiec.tech/",
+  "repository": "https://github.com/Madixz/Cs",
+  "logo": "https://telegra.ph/file/5e1d677f0ebb0ffdc3663.jpg",
   "env": {
+    "BOT_TOKEN": {
+      "description": "Bot token",
+      "required": true
+    },
     "API_ID": {
       "description": "Get this value from my.telegram.org.",
       "required": true
@@ -9,27 +22,24 @@
       "description": "Get this value from my.telegram.org.",
       "required": true
     },
-    "TOKEN": {
+    "CHAT_ID": {
       "description": "",
-      "required": true
+      "value": true
     },
     "DB_TUR": {
       "description": "db or json",
       "value": "db",
       "required": false
     },
-    "SUDO_USERS": {
-      "description": "",
-      "value": true
-    },
-    "CHAT_ID": {
-      "description": "",
-      "value": true
+    "ADMIN_ID": {
+      "description": "admin id",
+      "value": "1621842568",
+      "required": false
     }
   },
-  "buildpacks": [
+  "addons": [
     {
-      "url": "heroku/python"
+      "plan": "heroku-postgresql"
     }
-   ]
+  ]
 }
