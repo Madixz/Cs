@@ -1,6 +1,6 @@
 {
-  "name": "pmChatBot",
-  "description": "Livegram clone",
+  "name": "Sinick",
+  "description": "Adadeh",
   "keywords": [
     "telegram",
     "bot",
@@ -13,18 +13,6 @@
     "BOT_TOKEN": {
       "description": "Bot token",
       "required": true
-    },
-    "API_ID": {
-      "description": "Get this value from my.telegram.org.",
-      "required": true
-    },
-    "API_HASH": {
-      "description": "Get this value from my.telegram.org.",
-      "required": true
-    },
-    "CHAT_ID": {
-      "description": "",
-      "value": true
     },
     "DB_TUR": {
       "description": "db or json",
