@@ -13,6 +13,11 @@
       "description": "",
       "required": true
     },
+    "DB_TUR": {
+      "description": "db or json",
+      "value": "db",
+      "required": false
+    },
     "SUDO_USERS": {
       "description": "",
       "value": true
